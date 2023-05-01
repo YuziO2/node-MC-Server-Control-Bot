@@ -1,5 +1,5 @@
 # node MC Server Control Bot
-一个使用腾讯云抢占式实例，用telegram bot控制
+一个用telegram控制，使用腾讯云抢占式实例开MC服的TelegramBot。
 # 前提条件
 
 本bot使用了
