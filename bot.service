@@ -1,0 +1,12 @@
+[Unit]
+Description=MCStatusBotNode
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+WorkingDirectory=/pathToRepo/nodeMCServer
+ExecStart=/pathToNode/node /pathToRepo/nodeMCServer/index.js
+
+[Install]
+WantedBy=multi-user.target
