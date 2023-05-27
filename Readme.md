@@ -11,11 +11,11 @@
 
 # 使用
 
-在相应的文件内填入自己的凭证即可运行：
-- DDNS.js  ——cloudflare相关
-- ./TencentCloud/config.js  ——腾讯云相关
-- ./TencentCloud/CloudDisk.js  ——云硬盘ID
-- ./index.js  ——tgbot相关，服务器启动命令相关
+在./config.ts文件内填入自己的凭证即可运行：
+- ddnsConfig  ——cloudflare相关
+- tencentCloudConfig  ——腾讯云相关
+- tgBotConfig  ——tgbot相关
+- mcServerConfig ——MC服务端相关
 
 # 其他
 
